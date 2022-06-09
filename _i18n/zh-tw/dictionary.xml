@@ -696,7 +696,6 @@
   <block id="0810d353d59682cc576139c85dde16ca" category="section-title">c4、m4和r4執行個體類型</block>
   <block id="a1e5d1768da3a3100837f2ea13ebd32f" category="paragraph">從9.8版開始、新Cloud Volumes ONTAP 版的更新版不支援C4、M4和R4執行個體類型。如果您現有Cloud Volumes ONTAP 的某個執行於c4、m4或r4執行個體類型上的版本、您仍可升級至此版本。</block>
   <block id="f84be4481dc8e8613c8c66fe2b277872" category="paragraph">建議變更為c5、m5或R5執行個體系列中的執行個體類型。</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">版本資訊首頁</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
@@ -732,4 +731,11 @@
   <block id="fed5c8246ca485a22abc959eb3025a8c" category="admonition">免費試用開始、剩餘7天、以及剩餘1天時、您將會在Cloud Manager中收到通知。例如：<block ref="4c1747a7ecb096dffecedae45404dae8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="451e7fc5df78c19113abdb3f6a0dc54e" category="paragraph">瞭解如何開始使用容量型授權：</block>
   <block id="fdb736034a6801c8a5010a511211a4a7" category="paragraph">瞭解如何開始使用Keystone Flex訂閱：</block>
+  <block id="195512f323b29b79f5b71cceb3a49a7d" category="list-text">E80ids_v4 ^2^</block>
+  <block id="4e1b6146fa2cb1efc8bff10f1cf7e93c" category="list-text">E80ids_v4 ^1、1^</block>
+  <block id="4efc25f6cc7013d95ca2f5ab1dcc3366" category="list-text">建議僅在需要Azure維護控管時才使用此VM。由於價格較高、因此不建議用於任何其他使用案例。</block>
+  <block id="6b9d51616a5f0637dd2fb237d868c037" category="cell">E80ids_v4</block>
+  <block id="5505ffcb759fb1c9c3793b2dd386cd82" category="inline-link">瞭解如何在PAYGO和BYOL之間切換</block>
+  <block id="e1e947c069bd154f04aefec0a6619873" category="paragraph">請注意、不支援將系統從PAYGO節點授權轉換成BYOL節點授權（反之亦然）。您需要部署新系統、然後將資料複寫到該系統。<block ref="c9d55d60961394f2cbacfb1050626915" category="inline-link-rx"></block></block>
+  <block id="bc503c45d950d94391e7685c6585b286" category="cell">m5dn.12xlarge</block>
 </blocks>
