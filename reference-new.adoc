@@ -16,7 +16,7 @@ summary: 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 [role="lead"]
 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 
-最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
+最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
 
 
 
@@ -24,7 +24,7 @@ summary: 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 
 在AWS中Cloud Volumes ONTAP 、不再支援C4、M4和R4 EC2執行個體類型。如果現有系統執行的是c4、m4或r4執行個體類型、則必須變更為c5、m5或R5執行個體系列中的執行個體類型。
 
-link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用"^]。
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用"^]。
 
 請參閱 link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp支援"^] 以深入瞭解這些執行個體類型的終止可用度和支援。
 
@@ -46,7 +46,7 @@ link:reference-limits-aws.html#storage-vm-limits["深入瞭解儲存VM限制"]�
 
 * 從9.7版開始、支援通用SSD（GP3）磁碟。Cloud Volumes ONTAPGP3磁碟是成本最低的SSD、可在各種工作負載的成本與效能之間取得平衡。
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-planning-your-config.html#sizing-your-system-in-aws["深入瞭解搭配Cloud Volumes ONTAP 使用GP3磁碟的相關資訊"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-planning-your-config.html#sizing-your-system-in-aws["深入瞭解搭配Cloud Volumes ONTAP 使用GP3磁碟的相關資訊"^]。
 
 * 不再支援冷硬碟（SC1）磁碟。Cloud Volumes ONTAP
 
@@ -107,7 +107,7 @@ link:reference-configs-aws.html["在AWS中檢視支援的組態"]。
 
 link:reference-limits-azure.html#storage-vm-limits["深入瞭解Azure中的儲存VM限制"]。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-azure.html["瞭解如何在Cloud Volumes ONTAP Azure中建立資料服務儲存VM以供其使用"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["瞭解如何在Cloud Volumes ONTAP Azure中建立資料服務儲存VM以供其使用"^]。
 
 
 
@@ -121,7 +121,7 @@ BlueXP Connector必須執行3.9.4版或更新版本、才能部署新Cloud Volum
 
 連接器3.9.4版包含Cloud Volumes ONTAP 幾項加強功能、可用於管理各種版本的功能、包括增強AWS KMS支援、Google Cloud的共享VPC支援、以及Google Cloud的IP減少。
 
-前往 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 如需3.9.4版本的詳細資訊、
+前往 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 如需3.9.4版本的詳細資訊、
 
 
 
@@ -130,7 +130,7 @@ BlueXP Connector必須執行3.9.4版或更新版本、才能部署新Cloud Volum
 * 必須從BlueXP完成升級。Cloud Volumes ONTAP您不應 Cloud Volumes ONTAP 使用 System Manager 或 CLI 來升級功能。這樣做可能會影響系統穩定性。
 * 您可以從Cloud Volumes ONTAP 9.8版升級至版本的版本更新至版本更新。BlueXP會提示您將現有Cloud Volumes ONTAP 的更新版本升級至9.9.0。
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
+http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
 
 * 單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。
 * 升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。
